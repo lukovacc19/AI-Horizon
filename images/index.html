@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Horizon</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/google-deepmind-NMjrovXT_UY-unsplash.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">HOME</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Worlds Biggest AI Page</h1>
+            <p>Welcome to AI Horizon. <br> Page dedicated to AI and technology.</p>
+            <a href="" class="hero-btn">Dive into the world of AI</a>
+        </div>
+
+    </section>
+
+<!---- Learn About AI -->
+<section class="Learnaboutai">
+    <h1>Learn About AI</h1>
+    <p>Lorem ipsum dolor</p>
+
+    <div class="row">
+        <div class="course-col"> <!-- Changed class name from Learnaboutai-col to course-col -->
+            <h3>Basic Concepts of Artificial Intelligence</h3>
+            <p>In this section, we introduce the fundamental concepts of artificial intelligence (AI), offering a concise overview of its definitions, principles, and applications. AI encompasses pivotal areas such as machine learning, deep learning, natural language processing, and robotic perception.
+                Machine learning enables computers to learn from data and experiences, adapting to new information without explicit programming. Deep learning utilizes neural networks to process complex data, revolutionizing tasks like image recognition and language understanding.
+                Natural language processing empowers machines to understand, interpret, and generate human language, facilitating tasks like translation and sentiment analysis. Robotic perception enables machines to perceive and interact with their environment through sensors and cameras.
+                The objective here is to provide visitors with a basic understanding of AI concepts, igniting interest and prompting further exploration of the resources available on our AI Horizon website. Understanding these fundamentals is key to unlocking the potential of AI in various sectors and industries.</p>
+        </div>
+        <div class="course-col"> <!-- Changed class name from Learnaboutai-col to course-col -->
+            <h3>History of AI</h3>
+            <p>This section provides a brief overview of the history of artificial intelligence (AI), tracing its roots back to the 20th century. The concept emerged early on, but significant strides were made in the 1950s, with pioneers like Alan Turing laying the groundwork for AI development.
+                Key milestones include the Dartmouth Conference in 1956, where the term "artificial intelligence" was coined, and the development of the first AI programming languages. Machine learning and deep learning subsequently emerged as pivotal disciplines, revolutionizing AI and enabling breakthroughs in various domains.
+                The objective here is to offer visitors a concise glimpse into the historical context and evolution of AI, providing a foundation for understanding its significance and future prospects.</p>
+        </div>
+        <div class="course-col"> <!-- Changed class name from Learnaboutai-col to course-col -->
+            <h3>Goals of AI</h3>
+            <p>This section outlines the primary objectives of artificial intelligence (AI), which aim to develop computer systems capable of performing tasks akin to human intelligence. These objectives encompass learning, adaptation, reasoning, perception, and interaction with the environment.
+                Additionally, AI goals extend to enhancing productivity, optimizing processes, solving complex problems, and improving overall quality of life. These objectives have broad applicability, ranging from autonomous driving and personalized recommendations on social networks to medical diagnostics and robotic automation in industry.
+                The objective here is to provide visitors with a succinct understanding of the purpose and goals of artificial intelligence, emphasizing its transformative potential across various sectors and daily activities.</p>
+        </div>
+    </div>
+</section>
+
+
+<!-----AI Highlights----->
+
+<section class="top3">
+    <h1>AI Highlights</h1>
+    <p>Discover the week's top 3 AI breakthroughs!</p>
+    <div class="row">
+        <div class="top3-col">
+            <img src="images/devin-AI2.png">
+            <div class="layer">
+                <h3>Meet Devin, </h3>
+            </div>
+        </div>
+        <div class="top3-col">
+            <img src="images/devin-AI2.png">
+            <div class="layer">
+                <h3>Meet Devin,</h3>
+            </div>
+        </div>
+        <div class="top3-col">
+            <img src="images/devin-AI2.png">
+            <div class="layer">
+                <h3>Meet Devin,</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+<!------JavaScript for Toggle Menu----->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+function showMenu() {
+    navLinks.style.right = "0";
+}
+
+function hideMenu() {
+    navLinks.style.right = "-200px";
+}
+
+
+</script>
+
+
+
+</body>
+</html>
